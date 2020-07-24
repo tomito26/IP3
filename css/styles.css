@@ -27,7 +27,11 @@ body{
 }
 .contacts{
     background-image: url(../assets/backgrounds/c_image.jpg);
-    height: 60vh;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 #name,#email,#moreinfo{
     background-color: transparent;
