@@ -40,3 +40,6 @@ body{
 .footer{
     text-align: center;
 }
+#development,#product,#design{
+    display: none;
+}
