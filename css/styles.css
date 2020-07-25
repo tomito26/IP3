@@ -19,7 +19,7 @@ body{
 }
 .services{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/backgrounds/s_image.jpg);
-    height: 50vh;
+    height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,9 +37,16 @@ body{
     background-color: transparent;
 
 }
+::placeholder #name,#email,#moreinfo{
+    color: white;
+}
 .footer{
     text-align: center;
 }
 #development,#product,#design{
-    display: none;
+    display: none
+    
+}
+.clickable,.management,.dev{
+    cursor: pointer;
 }
