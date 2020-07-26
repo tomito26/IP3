@@ -11,12 +11,12 @@
 <body>
     <div class="landing-page text-white text-uppercase d-flex flex-column align-items-center justify-content-center text-center">
         <img src="assets/logo/logo.png" alt=""><br>
-        <h1>welcome<br><br>to Delani studio</h1>
-        <p>Amazing people are making amazing designs in a fun environment</p>
-        <img  class="pt-5 mt-25" src="assets/logo/mouse_click.png" alt="">
+        <h1 class="pt-5">welcome<br><br>to Delani studio</h1>
+        <p>Amazing people are making amazing designs in a fun environment</p><br>
+        <img  id="mouse" class="pt-5 mt-25" src="assets/logo/mouse_click.png" alt="">
 
     </div>
-    <div class="about p-5">
+    <div id='about' class="about p-5">
         <h2 class="text-uppercase">About us</h2>
         <p>When you work with us you are part of a team of committed collaborators.All aspects of our software development process are intergrated,interactive <br>and fragile.<br>Our aproach unifies design,development and product management to create exceptional products.<br>We start each project by understanding your business goals,the user's needs and the product requirements.<br>Then we help translate them into effective and elegant solutions</p>  
     </div>
@@ -47,37 +47,46 @@
             </div>
         </div>
     </div>
-    <div class="container pt-5">
-        <h2 class="text-uppercase text-center">Portfolio</h2>
-        <div class="row">
-            <div class="col-md-3 p-3">
-                <img class='img-fluid' src="assets/portfolio/work4.jpg" alt="">  
+    <div class="container pt-5 pl-5">
+        <h2 id="project_1" class="text-uppercase text-center">Portfolio</h2> 
+        <div class="row d-flex justify-content-center align-items-center">
+            <div id="portfolio" class="col-md-3 p-3">
+                <img  class='img-fluid' src="assets/portfolio/work4.jpg" alt=""> 
+                <div class="overlay">
+                    <p class="text-white">Project 1</p>
+                </div>
             </div>
             <div class="col-md-3 p-3">
-                <img class='img-fluid' src="assets/portfolio/work3.jpg" alt="">
+                <img id="img2" class='img-fluid' src="assets/portfolio/work3.jpg" alt="">
+                <p>Project 2</p>
             </div>
             <div class="col-md-3 p-3">
                 <img class="img-fluid" src="assets/portfolio/work2.jpg" alt="">
+                <p>Project 3</p>
             </div>
             <div class="col-md-3 p-3">
                 <img class='img-fluid'src="assets/portfolio/work1.jpg" alt="">
+                <p>Project 4</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-3 p-3">
                 <img class='img-fluid' src="assets/portfolio/work5.jpg" alt="">
+                <p>Project 5</p>
             </div>
             <div class="col-md-3 p-3">
                 <img class='img-fluid' src="assets/portfolio/work6.jpg" alt="">
+                <p>Project 6</p>
             </div>
             <div class="col-md-3 p-3">
                 <img class='img-fluid' src="assets/portfolio/work7.jpg" alt="">
+                <p>Project 7</p>
             </div>
             <div class="col-md-3 p-3">
                 <img class='img-fluid' src="assets/portfolio/work8.jpg" alt="">
+                <p>Project 8</p>
             </div>
         </div>
-
     </div>
     <div class="contacts">
         <h2 class="text-center text-white text-uppercase pt-5">Contact us</h2>
@@ -88,11 +97,12 @@
                     <input  type="email" name="email" id="email" class="form-control text-white" placeholder="Email...">
                 </div>
                 <textarea name="extra" id="moreinfo"  class='form-control text-white' cols="50" rows="4" placeholder="Your message here"></textarea>
+                <input type="submit" id="submit" class="text-white" value="submit">
             </form>
         </div>
     </div>
     <div class="footer pt-5 d-flex flex-column justify-content-center align-items-center">
-        <div>
+        <div id="social">
             <img src="assets/social_icons/twitter.png" alt="">
             <img src="assets/social_icons/you_tube.png" alt="">
             <img src="assets/social_icons/stumble_upon.png" alt="">

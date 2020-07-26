@@ -11,8 +11,21 @@ $(document).ready(function(){
     });
     $('.management').click(function() {
         $('#prod-icon').toggle()
-        $('#product').toggle()
-        
+        $('#product').toggle()   
     });
+
+   
+});
+
+// portfolio functions
+$(document).ready(function(){
+    $('.img1').mouseover(function(){
+        $('.project_1').show();
+    });
+    $('.img1').mouseout(function(){
+        $('.project_1').hide();
+    });
+    
+    
 
 });
