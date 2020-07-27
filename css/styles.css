@@ -68,28 +68,29 @@ body{
     cursor: pointer;
 }
 
-#portfolio,#port{
+#portfolio,#port,#port2,#port3,#port4{
     position: relative;
     
 }
 
-.overlay,.p_name{
+.overlay,.p_name,.project3,.project4,.project5{
     position: absolute;
-    top: 50px;
+    top: 30px;
     bottom: 0;
     left: 30px;
     right: 0;
-    width: 70%;
+    width: 80%;
     height: 70%;
     box-sizing:border-box;
     border-top: 2px solid white;
     border-left: 2px solid white;
     border-bottom: 2px solid white;
     border-right: 2px solid white;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.7);
     transition: .5s ease;
     opacity: 0;
     /* background-color: rgba(0,0,0,0.8); */
+    color: white;
 }
 #portfolio:hover .overlay{
     opacity: 1;
@@ -97,17 +98,12 @@ body{
  #port:hover .p_name{
     opacity: 1;
  }
-#mouse{
-    animation:bounce 2s infinite;
-}
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-55px);
-    }
-    60% {
-      transform: translateY(-45px);
-    }
-}
+
+ #port2:hover .project3{
+    opacity: 1;
+ } 
+ #port3:hover .project4{
+     opacity: 1;
+ }
+ 
+
