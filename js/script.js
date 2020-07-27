@@ -12,7 +12,9 @@ $(document).ready(function () {
     $("#prod-icon").toggle();
     $("#product").toggle();
   });
+
 });
+
 
 // portfolio functions
 $(document).ready(function () {
