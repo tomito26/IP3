@@ -68,19 +68,19 @@ body{
     cursor: pointer;
 }
 
-#portfolio,#port,#port2,#port3,#port4{
+#portfolio,#port,#port2,#port3,#port4,#port5,#port6,#port7{
     position: relative;
     
 }
 
-.overlay,.p_name,.project3,.project4,.project5{
+.overlay,.p_name,.project3,.project4,.project5,.project6,.project7,.project8{
     position: absolute;
-    top: 30px;
+    top: 20px;
     bottom: 0;
     left: 30px;
     right: 0;
     width: 80%;
-    height: 70%;
+    height: 80%;
     box-sizing:border-box;
     border-top: 2px solid white;
     border-left: 2px solid white;
@@ -105,5 +105,16 @@ body{
  #port3:hover .project4{
      opacity: 1;
  }
- 
+ #port4:hover .project5{
+     opacity: 1;
+ }
+ #port5:hover .project6{
+     opacity: 1;
+ }
+ #port6:hover .project7{
+     opacity: 1;
+ }
+ #port7:hover .project8{
+     opacity: 1;
+ }
 
