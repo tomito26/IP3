@@ -19,13 +19,17 @@ $(document).ready(function(){
 
 // portfolio functions
 $(document).ready(function(){
-    $('portfolio').mouseover(function(){
-        $('.overlay').hover(function(){
-            opacity:'1'
-        })
+    $('#portfolio').hover(function(){
+        $('.overlay', this).slideToggle(slow);
+        $('.overlay', this).slidetoggle(slow)
     });
 });
 
 
 
-// contact
+// contact us
+$(document).ready(function(){
+    $('#contact form').submit(function(event){
+        var contact = ['name','email','message']
+    })
+})
