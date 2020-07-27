@@ -47,7 +47,7 @@
             </div>
         </div>
     </div>
-    <div class="container pt-5 pl-5">
+    <div id="container_port" class="container pt-5 pl-5">
         <h2 id="project_1" class="text-uppercase text-center">Portfolio</h2> 
         <div class="row d-flex justify-content-center align-items-center">
             <div id="portfolio" class="col-md-3 p-3">
@@ -102,16 +102,16 @@
             </div>
         </div>
     </div>
-    <div class="contacts">
+    <div class="form">
         <h2 class="text-center text-white text-uppercase pt-5">Contact us</h2>
         <div id="contact" class="input d-flex justify-content-center">
             <form>
                 <div class="form-group w-30 d-flex">
-                    <input type="text" name="name" id="name" class="form-control text-white" placeholder="Name...">
-                    <input  type="email" name="email" id="email" class="form-control text-white" placeholder="Email...">
+                    <input type="text" name="name" id="name" class="form-control text-white" placeholder="Name..." required>
+                    <input  type="email" name="email" id="email" class="form-control text-white" placeholder="Email..." required>
                 </div>
-                <textarea name="extra" id="message"  class='form-control text-white' cols="50" rows="4" placeholder="Your message here"></textarea>
-                <input type="submit" id="submit" class="text-white" value="submit">
+                <textarea name="extra" id="message"  class='form-control text-white' cols="50" rows="4" placeholder="Your message here" required></textarea>
+                <button type="submit" id="submit" class="btn btn text-white" onsubmit="feedback()"> submit</button>
             </form>
         </div>
     </div>

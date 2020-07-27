@@ -39,7 +39,7 @@ body{
     background-size: cover;
     text-align: center;
 }
-.contacts{
+.form{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(../assets/backgrounds/c_image.jpg);
     height: 70vh;
     background-repeat: no-repeat;
@@ -88,11 +88,12 @@ body{
     border-right: 2px solid white;
     background-color: rgba(0,0,0,0.7);
     transition: .5s ease;
+    color: white;
     opacity: 0;
     /* background-color: rgba(0,0,0,0.8); */
-    color: white;
+    
 }
-#portfolio:hover .overlay{
+ #portfolio:hover .overlay{
     opacity: 1;
  } 
  #port:hover .p_name{
@@ -116,5 +117,5 @@ body{
  }
  #port7:hover .project8{
      opacity: 1;
- }
+ } 
 
