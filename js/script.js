@@ -19,13 +19,10 @@ $(document).ready(function(){
 
 // portfolio functions
 $(document).ready(function(){
-    $('.img1').mouseover(function(){
-        $('.project_1').show();
+    $('portfolio').mouseover(function(){
+        $('.overlay').hover(function(){
+            opacity:'1'
+        })
     });
-    $('.img1').mouseout(function(){
-        $('.project_1').hide();
-    });
-    
-    
-
 });
+
