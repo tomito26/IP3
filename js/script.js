@@ -19,7 +19,7 @@ $(document).ready(function () {
 // portfolio functions
 $(document).ready(function () {
   $("#portfolio").mouseover(function () {
-    $(".overlay").show()
+    $('.overlay').show()
     }).mouseout(function () {
       $(".overlay").hide()
     });
