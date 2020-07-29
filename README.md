@@ -29,7 +29,7 @@ You can contribute by forking the project  and following the above steps
 If you run into any challenge in setting up the project or question feel free to contact me tommybwah@gmail.com
 
 ## License and Copyright
-Licensed under [MIT license](LICENSE)
+Licensed under [MIT license](LICENSE).
 
 
 
